@@ -1,6 +1,6 @@
 local game = remodel.readPlaceFile("build.rbxlx")
 
-local shared = game.ReplicatedStorage["roblosploit-shared"]
+local shared = game.ReplicatedStorage.roblosploit_shared
 
 for _, v in ipairs(shared:GetChildren()) do
     if not (v.ClassName == "Script" or v.ClassName == "LocalScript" or v.ClassName == "ModuleScript") then

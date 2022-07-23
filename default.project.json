@@ -4,13 +4,13 @@
     "$className": "DataModel",
     "ReplicatedStorage": {
       "$className": "ReplicatedStorage",
-      "roblosploit-shared": {
+      "roblosploit_shared": {
         "$path": "src/shared"
       }
     },
     "ServerScriptService": {
       "$className": "ServerScriptService",
-      "roblosploit-server": {
+      "roblosploit_server": {
         "$path": "src/server"
       }
     },
@@ -18,7 +18,7 @@
       "$className": "StarterPlayer",
       "StarterPlayerScripts": {
         "$className": "StarterPlayerScripts",
-        "roblosploit-client": {
+        "roblosploit_client": {
           "$path": "src/client"
         }
       }
