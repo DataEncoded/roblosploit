@@ -1,6 +1,10 @@
 # Project place file
 /roblosploit.rbxlx
 
+#Rojo build files
+/build.rbxl
+/build.rbxlx
+
 # Roblox Studio lock files
 /*.rbxlx.lock
 /*.rbxl.lock
