@@ -2,8 +2,7 @@
   <Item class="ScreenGui" referent="0">
     <Properties>
       <string name="Name">roblosploit-client</string>
-      <BinaryString name="AttributesSerialize">
-      </BinaryString>
+      <BinaryString name="AttributesSerialize"></BinaryString>
       <bool name="AutoLocalize">true</bool>
       <int name="DisplayOrder">0</int>
       <bool name="Enabled">true</bool>
@@ -27,8 +26,7 @@
           <X>0</X>
           <Y>0</Y>
         </Vector2>
-        <BinaryString name="AttributesSerialize">
-        </BinaryString>
+        <BinaryString name="AttributesSerialize"></BinaryString>
         <bool name="AutoLocalize">true</bool>
         <token name="AutomaticSize">0</token>
         <Color3 name="BackgroundColor3">
@@ -83,8 +81,7 @@
       <Item class="UICorner" referent="2">
         <Properties>
           <string name="Name">UICorner</string>
-          <BinaryString name="AttributesSerialize">
-          </BinaryString>
+          <BinaryString name="AttributesSerialize"></BinaryString>
           <UDim name="CornerRadius">
             <S>0</S>
             <O>8</O>
@@ -101,8 +98,7 @@
             <X>0</X>
             <Y>0</Y>
           </Vector2>
-          <BinaryString name="AttributesSerialize">
-          </BinaryString>
+          <BinaryString name="AttributesSerialize"></BinaryString>
           <bool name="AutoLocalize">true</bool>
           <token name="AutomaticSize">0</token>
           <Color3 name="BackgroundColor3">
@@ -185,8 +181,7 @@
             <X>0</X>
             <Y>0</Y>
           </Vector2>
-          <BinaryString name="AttributesSerialize">
-          </BinaryString>
+          <BinaryString name="AttributesSerialize"></BinaryString>
           <bool name="AutoLocalize">true</bool>
           <token name="AutomaticCanvasSize">2</token>
           <token name="AutomaticSize">0</token>
@@ -273,8 +268,7 @@
         <Item class="UIGridLayout" referent="5">
           <Properties>
             <string name="Name">UIGridLayout</string>
-            <BinaryString name="AttributesSerialize">
-            </BinaryString>
+            <BinaryString name="AttributesSerialize"></BinaryString>
             <UDim2 name="CellPadding">
               <XS>0.01</XS>
               <XO>0</XO>
