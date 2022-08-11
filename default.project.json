@@ -12,7 +12,11 @@
       "$className": "ServerScriptService",
       "roblosploit_server": {
         "$path": "src/server"
+      },
+      "Cmdr": {
+        "$path": "Cmdr/Cmdr"
       }
+      
     },
     "StarterPlayer": {
       "$className": "StarterPlayer",
