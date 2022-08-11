@@ -35,6 +35,21 @@ local function verifyAllowed(p)
 		return true
 	end
 
+	--No cache here, would be meaningless to just add every user to the cache
+	if allowedUsers["vip-all"] then
+		return true
+	end
+
+	--Special case for VIP server where owner is allowed
+	if allowedUsers["vip"] then
+		if game.PrivateServerId ~= "" and game.PrivateServerOwnerId ~= 0 then
+			if p.UserId == game.PrivateServerOwnerId then
+				table.insert(allowedCache, p)
+				return true
+			end
+		end
+	end
+
 	--Player wasn't found in cache, loop over to ensure they are allowed
 	for _, v in ipairs(allowedUsers["ids"]) do
 		if p.UserId == v then
